@@ -1,0 +1,60 @@
+/* body{
+    display:flex;
+    align-items:center ;
+    justify-content: center;
+}
+.ChessBoard{
+    border: 2px solid black;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.ChessBoard div{
+    
+    width: calc(100% /8);
+
+}
+.a{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 12.5%;
+}
+.b{
+    background-color: black;
+    width: 100%;
+    height: 12.5px;
+} */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* make it centered vertically too */
+    margin: 0;
+}
+
+.ChessBoard {
+    border: 2px solid black;
+    width: 600px;   /* fixed size board */
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ChessBoard div {
+    width: 12.5%;   /* 100% / 8 */
+    height: 12.5%;  /* same height for perfect squares */
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px white;
+
+}
+
+.a {
+    background-color: whitesmoke;
+}
+
+.b {
+    background-color: black;
+}

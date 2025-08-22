@@ -1,0 +1,74 @@
+h1{
+    color: blueviolet;
+}
+/* commets */
+*{
+    background-color: rosybrown;
+}
+*{
+margin:0;
+padding:0;
+}
+
+/* selectors=id and class */
+/* id
+ */
+
+#first{
+    color:blue;
+    background-color: black;
+}
+#second{
+    color:rgb(231, 107, 45);
+    background-color: black;
+}
+div p{
+    color:azure;
+}
+#q{
+    background-color: rgb(68, 43, 10);
+}
+#a{
+    background-color: rgb(230, 230, 47);
+}
+button{
+    background-color: blueviolet;
+}
+p{
+    color: black;
+}
+/* primary color is red blue green rgb */
+/* alpha channel */
+/* rgba */
+
+
+#box1{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    background-image: url("na.jpg");
+    text-align:center;
+
+}
+#box2{
+    background-color: gold;
+    height: 100px;
+    width: 100px;
+    /* visibility: hidden; */
+    text-align:center;
+}
+#box3{
+    background-color: azure;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+/* visibity=without cj==hange the layel out
+ */
+ /* link if not underline */
+ a{
+    text-decoration:none;
+    font-size: 20px;
+    
+ }
+
